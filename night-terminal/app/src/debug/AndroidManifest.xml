@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <instrumentation android:name=".WakeWordInstrumentation"
+        android:targetPackage="com.feiyu.nightterminal" android:label="Offline 大肥鱼 model check" />
+    <instrumentation android:name=".WallpaperVisibilityInstrumentation"
+        android:targetPackage="com.feiyu.nightterminal" android:label="Home wallpaper visibility check" />
+</manifest>

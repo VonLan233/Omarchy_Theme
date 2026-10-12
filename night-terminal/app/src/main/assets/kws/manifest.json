@@ -1,0 +1,36 @@
+{
+  "runtime_url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/v1.12.35/sherpa-onnx-1.12.35.aar",
+  "runtime_sha256": "43cfb818461da559016bd10647c95192f4683c02792b9d9116aba30e2324858e",
+  "model_url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/kws-models/sherpa-onnx-kws-zipformer-wenetspeech-3.3M-2024-01-01.tar.bz2",
+  "model_archive_sha256": "b2f7c89690dc8ce4c6ed6afeab7cd800c36ad1421fb6b6302b4a4b194cf7f35f",
+  "files": {
+    "LICENSE": {
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "keywords.txt": {
+      "bytes": 38,
+      "sha256": "63f6e0b78919c61c13cc04817e1cb21c19e76d8e36069e0df9ac2d7d0fabd7fb"
+    },
+    "tokens.txt": {
+      "bytes": 1627,
+      "sha256": "72316508d9119696145abc6f1f8cdc46287535c34e5ce7e595f845cb1499cf2e"
+    },
+    "joiner.int8.onnx": {
+      "bytes": 65242,
+      "sha256": "f79760052b87239e325f0567c752ad3130b30d92effb847d4307743c20c59a24"
+    },
+    "decoder.int8.onnx": {
+      "bytes": 181069,
+      "sha256": "ed83454004d5bd16d831eaf00adcd181ed7734886aab6ef440f3ffa5aa3cfe3b"
+    },
+    "MODEL-README.md": {
+      "bytes": 767,
+      "sha256": "dd0ec68b5d9ee736f016fc982078bd3cdbccc69057e9910bdd45580992d13367"
+    },
+    "encoder.int8.onnx": {
+      "bytes": 4777666,
+      "sha256": "dd784973fc9d2fabb3b800d6dcd20fc3b0ca84f8e2415afe54b032878e447f4d"
+    }
+  }
+}

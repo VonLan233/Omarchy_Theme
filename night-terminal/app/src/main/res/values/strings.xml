@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pixel_wallpaper_name">Midnight Raster 动态壁纸</string>
+    <string name="pixel_wallpaper_description">深紫像素边缘缓慢流动，触摸泛起方块波纹。省电或关闭动画时显示原图。时钟与系统解锁由手机负责。</string>
+    <string name="motion_preview_name">设计预览 · Midnight Raster</string>
+</resources>

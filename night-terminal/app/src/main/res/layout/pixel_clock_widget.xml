@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pixel_clock_widget" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    android:gravity="center" android:padding="8dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="feiyu@oppo" android:textColor="#AAA0BA" android:textSize="14sp"
+        android:fontFamily="@font/pixel_body" android:includeFontPadding="false" />
+    <TextClock android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:format12Hour="HH:mm" android:format24Hour="HH:mm" android:gravity="center"
+        android:layout_marginTop="12dp" android:textColor="#DAD7CA" android:textSize="52sp"
+        android:fontFamily="@font/pixel_display" android:includeFontPadding="false"
+        android:singleLine="true" android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="28sp" android:autoSizeMaxTextSize="52sp" />
+    <TextClock android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:format12Hour="M月d日 EEE" android:format24Hour="M月d日 EEE" android:gravity="center"
+        android:layout_marginTop="8dp" android:textColor="#AAA0BA" android:textSize="14sp"
+        android:fontFamily="@font/pixel_body" android:includeFontPadding="false" />
+</LinearLayout>

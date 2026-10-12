@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<voice-interaction-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sessionService="com.feiyu.nightterminal.FeiyuVoiceSessionService"
+    android:recognitionService="com.feiyu.nightterminal.LocalWakeRecognitionService"
+    android:settingsActivity="com.feiyu.nightterminal.VoiceActivity"
+    android:supportsAssist="true"
+    android:supportsLaunchVoiceAssistFromKeyguard="false" />

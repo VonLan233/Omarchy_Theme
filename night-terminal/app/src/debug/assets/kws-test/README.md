@@ -1,0 +1,1 @@
+This directory intentionally contains no voice recordings. Use your own locally stored audio when evaluating keyword accuracy; do not commit recordings or speaker samples. The instrumentation check covers silence handling and one-time wake handoff without audio fixtures.

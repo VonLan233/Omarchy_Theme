@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NightTerminal" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">@font/pixel_body</item>
+        <item name="android:colorAccent">#C1AFD4</item>
+        <item name="android:colorBackground">#191624</item>
+        <item name="android:textColorPrimary">#DAD7CA</item>
+        <item name="android:textColorSecondary">#AAA0BA</item>
+        <item name="android:windowBackground">#0F0E18</item>
+        <item name="android:statusBarColor">#0F0E18</item>
+        <item name="android:navigationBarColor">#0F0E18</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>
