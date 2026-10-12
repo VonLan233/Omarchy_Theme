@@ -1,0 +1,44 @@
+# Midnight Raster for Trime 3.3.12.
+# Copy theme/termux/font.ttf to Rime/fonts/FusionPixel.ttf.
+patch:
+  # 3.3.12 reads font lists; scalar filenames silently fall back to system fonts.
+  "style/key_font": [FusionPixel.ttf]
+  "style/text_font": [FusionPixel.ttf]
+  "style/candidate_font": [FusionPixel.ttf]
+  "style/comment_font": [FusionPixel.ttf]
+  "style/label_font": [FusionPixel.ttf]
+  "style/latin_font": [FusionPixel.ttf]
+  "style/symbol_font": [FusionPixel.ttf]
+  "style/popup_font": [FusionPixel.ttf]
+  "style/round_corner": 0
+  "preset_color_schemes/default":
+    name: Midnight Raster
+    author: Feiyu
+    back_color: 0x0f0e18
+    border_color: 0x191624
+    candidate_separator_color: 0x191624
+    candidate_text_color: 0xdad7ca
+    comment_text_color: 0xaaa0ba
+    label_color: 0xc1afd4
+    text_color: 0xdad7ca
+    text_back_color: 0x191624
+    hilited_text_color: 0x87bcad
+    hilited_back_color: 0x191624
+    hilited_candidate_back_color: 0xc1afd4
+    hilited_candidate_text_color: 0x0f0e18
+    hilited_comment_text_color: 0x191624
+    key_back_color: 0x191624
+    key_border_color: 0x191624
+    key_text_color: 0xdad7ca
+    key_symbol_color: 0xaaa0ba
+    keyboard_back_color: 0x0f0e18
+    off_key_back_color: 0x191624
+    off_key_text_color: 0xc1afd4
+    on_key_back_color: 0x87bcad
+    on_key_text_color: 0x0f0e18
+    hilited_key_back_color: 0xc1afd4
+    hilited_key_text_color: 0x0f0e18
+    hilited_key_symbol_color: 0x191624
+    preview_back_color: 0xc1afd4
+    preview_text_color: 0x0f0e18
+    shadow_color: 0x00000000
