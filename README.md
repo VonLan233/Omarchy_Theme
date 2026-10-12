@@ -11,7 +11,9 @@
 
 Midnight Raster brings a dark, large-pixel visual language to an Android home workspace: lavender and warm-gray type, quiet mint accents, and a field of drifting square pixels. It combines a standalone launcher, animated wallpaper, an opt-in local wake-word assistant, and matching terminal and keyboard themes.
 
-> This is an independent community project inspired by Omarchy. It is not affiliated with or endorsed by Omarchy or its maintainers.
+## Acknowledgements
+
+Midnight Raster was inspired by [Omarchy](https://github.com/omacom/omarchy), DHH’s Linux distribution. Thank you to DHH and the Omarchy contributors for creating and sharing a distinctive, opinionated pixel-art desktop experience that inspired this Android adaptation. Midnight Raster is an independent project and is not affiliated with or endorsed by Omarchy or its maintainers.
 
 ## What’s included
 
