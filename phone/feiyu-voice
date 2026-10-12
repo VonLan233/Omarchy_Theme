@@ -1,0 +1,3 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# shortcut: Android may stop Termux; rerun this command until boot persistence is needed.
+exec python "$HOME/.local/share/feiyu-voice/server.py"

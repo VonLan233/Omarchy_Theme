@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# The upstream Linux binary needs Termux's Linux DNS and shell paths on Android.
+set -euo pipefail
+termux_prefix=${PREFIX:-/data/data/com.termux/files/usr}
+codex_binary=${CODEX_BINARY:-"$HOME/.local/lib/codex/codex"}
+if [[ ! -x "$codex_binary" ]]; then
+    printf 'Codex binary not found: %s (set CODEX_BINARY to its path)\n' "$codex_binary" >&2
+    exit 127
+fi
+export SSL_CERT_FILE="${SSL_CERT_FILE:-$termux_prefix/etc/tls/cert.pem}"
+export PATH="${codex_binary%/*}:$PATH"
+exec "$termux_prefix/bin/proot" \
+    -b "$termux_prefix/tmp:/tmp" \
+    -b "$termux_prefix/etc/resolv.conf:/etc/resolv.conf" \
+    -b "$termux_prefix/bin:/bin" \
+    -b "$termux_prefix/bin:/usr/bin" \
+    "$codex_binary" --no-daemon "$@"
